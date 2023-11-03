@@ -1,0 +1,15 @@
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\bin\Debug\net6.0\ECommerceShopAPI.Repository.deps.json
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\bin\Debug\net6.0\ECommerceShopAPI.Repository.dll
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\bin\Debug\net6.0\ECommerceShopAPI.Repository.pdb
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ECommerceShopAPI.Repository.csproj.AssemblyReference.cache
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ECommerceShopAPI.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ECommerceShopAPI.Repository.AssemblyInfoInputs.cache
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ECommerceShopAPI.Repository.AssemblyInfo.cs
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ECommerceShopAPI.Repository.csproj.CoreCompileInputs.cache
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ECommerceShopAPI.Repository.dll
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\refint\ECommerceShopAPI.Repository.dll
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ECommerceShopAPI.Repository.pdb
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ref\ECommerceShopAPI.Repository.dll
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\bin\Debug\net6.0\ECommerceShopAPI.Entities.dll
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\bin\Debug\net6.0\ECommerceShopAPI.Entities.pdb
+D:\Projects\ECommerceShopAPI\ECommerceShopAPI.Repository\obj\Debug\net6.0\ECommerceShopAPI.Repository.csproj.CopyComplete

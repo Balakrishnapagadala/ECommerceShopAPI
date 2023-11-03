@@ -1,0 +1,418 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Services\\ECommerceShopAPI.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Command\\ECommerceShopAPI.Command.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Command\\ECommerceShopAPI.Command.csproj",
+        "projectName": "ECommerceShopAPI.Command",
+        "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Command\\ECommerceShopAPI.Command.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Command\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Common\\ECommerceShopAPI.Common.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Common\\ECommerceShopAPI.Common.csproj"
+              },
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj"
+              },
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Repository\\ECommerceShopAPI.Repository.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Repository\\ECommerceShopAPI.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Common\\ECommerceShopAPI.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Common\\ECommerceShopAPI.Common.csproj",
+        "projectName": "ECommerceShopAPI.Common",
+        "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Common\\ECommerceShopAPI.Common.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj",
+        "projectName": "ECommerceShopAPI.Entities",
+        "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Queries\\ECommerceShopAPI.Queries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Queries\\ECommerceShopAPI.Queries.csproj",
+        "projectName": "ECommerceShopAPI.Queries",
+        "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Queries\\ECommerceShopAPI.Queries.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Queries\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj"
+              },
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Repository\\ECommerceShopAPI.Repository.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Repository\\ECommerceShopAPI.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Repository\\ECommerceShopAPI.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Repository\\ECommerceShopAPI.Repository.csproj",
+        "projectName": "ECommerceShopAPI.Repository",
+        "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Repository\\ECommerceShopAPI.Repository.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Entities\\ECommerceShopAPI.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Services\\ECommerceShopAPI.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Services\\ECommerceShopAPI.Services.csproj",
+        "projectName": "ECommerceShopAPI.Services",
+        "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Services\\ECommerceShopAPI.Services.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Command\\ECommerceShopAPI.Command.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Command\\ECommerceShopAPI.Command.csproj"
+              },
+              "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Queries\\ECommerceShopAPI.Queries.csproj": {
+                "projectPath": "D:\\Projects\\ECommerceShopAPI\\ECommerceShopAPI.Queries\\ECommerceShopAPI.Queries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
